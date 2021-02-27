@@ -7,16 +7,11 @@
 # Inherit from gauguin device
 $(call inherit-product, device/xiaomi/gauguin/device.mk)
 
-# Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
-CUSTOM_BUILD_TYPE := baolong24
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_gauguin
+PRODUCT_NAME := lineage_gauguin
 PRODUCT_DEVICE := gauguin
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
