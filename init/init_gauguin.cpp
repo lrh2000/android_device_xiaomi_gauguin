@@ -93,8 +93,8 @@ void load_gauguininpro() {
     property_override("ro.build.product", "gauguininpro");
     property_override("ro.product.device", "gauguininpro");
     property_override("ro.product.marketname", "Mi 10i");
-    property_override("ro.build.description", "gauguininpro-user 10 QKQ1.200628.002 V12.0.4.0.QJSINXM release-keys");
-    property_override("ro.build.fingerprint", "Xiaomi/gauguininpro/gauguininpro:10/QKQ1.200628.002/V12.0.4.0.QJSINXM:user/release-keys");
+    property_override("ro.build.description", "gauguininpro-user 10 QKQ1.200628.002 V12.0.6.0.QJSINXM release-keys");
+    property_override("ro.build.fingerprint", "Xiaomi/gauguininpro/gauguininpro:10/QKQ1.200628.002/V12.0.6.0.QJSINXM:user/release-keys");
 }
 
 void load_gauguinpro() {
@@ -102,8 +102,8 @@ void load_gauguinpro() {
     property_override("ro.build.product", "gauguinpro");
     property_override("ro.product.device", "gauguinpro");
     property_override("ro.product.marketname", "Redmi Note 9 Pro");
-    property_override("ro.build.description", "gauguinpro-user 10 QKQ1.200628.002 V12.0.4.0.QJSCNXM release-keys");
-    property_override("ro.build.fingerprint", "Redmi/gauguinpro/gauguinpro:10/QKQ1.200628.002/V12.0.4.0.QJSCNXM:user/release-keys");
+    property_override("ro.build.description", "gauguinpro-user 10 QKQ1.200628.002 V12.0.10.0.QJSCNXM release-keys");
+    property_override("ro.build.fingerprint", "Redmi/gauguinpro/gauguinpro:10/QKQ1.200628.002/V12.0.10.0.QJSCNXM:user/release-keys");
 }
 
 
