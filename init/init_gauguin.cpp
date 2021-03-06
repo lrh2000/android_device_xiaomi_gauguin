@@ -52,7 +52,7 @@ static const char *snet_prop_key[] = {
     NULL
 };
 
- static const char *snet_prop_value[] = {
+static const char *snet_prop_value[] = {
     "locked",
     "green",
     "1",
@@ -68,15 +68,11 @@ static const char *snet_prop_key[] = {
     NULL
 };
 
- static void workaround_snet_properties() {
-
-     // Hide all sensitive props
+static void workaround_snet_properties() {
+    // Hide all sensitive props
     for (int i = 0; snet_prop_key[i]; ++i) {
         property_override(snet_prop_key[i], snet_prop_value[i]);
     }
-
-    chmod("/sys/fs/selinux/enforce", 0640);
-    chmod("/sys/fs/selinux/policy", 0440);
 }
 
 void load_gauguin() {
